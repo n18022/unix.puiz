@@ -1,3 +1,3 @@
 #!/bin/bash
 
-cat ~/sample/file{1.3} | sort | uniq | sed /^A/d
+cat ~/sample/file{1..3} | sort | uniq | sed /^A/d
